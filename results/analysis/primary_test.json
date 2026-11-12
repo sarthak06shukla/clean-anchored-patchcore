@@ -1,0 +1,33 @@
+{
+  "comparison": "Adaptive minus pooled; B=4096; mean of 9 corruption AUROCs, macro over 3 categories; per-image scores averaged over 3 seeds before AUROC",
+  "delta": 0.0005130671797338462,
+  "ci95": [
+    -0.00117578229383785,
+    0.0022746111912778566
+  ],
+  "resamples": 2000,
+  "seed": 20261112,
+  "categories": [
+    {
+      "category": "bottle",
+      "adaptive": 0.998236331569665,
+      "pooled": 0.998236331569665,
+      "delta": 0.0
+    },
+    {
+      "category": "hazelnut",
+      "adaptive": 0.9806349206349206,
+      "pooled": 0.9782539682539684,
+      "delta": 0.0023809523809523807
+    },
+    {
+      "category": "tile",
+      "adaptive": 0.9963524130190796,
+      "pooled": 0.9971941638608307,
+      "delta": -0.0008417508417508419
+    }
+  ],
+  "clean_macro_seed_mean_delta_vs_clean": -8.016674683353209e-05,
+  "success_criterion_met": false,
+  "limitations": "Conditional image-sampling uncertainty for these 3 categories and fitted seeds; does not bootstrap new categories or training sets."
+}

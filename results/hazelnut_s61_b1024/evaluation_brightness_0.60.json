@@ -1,0 +1,5341 @@
+{
+  "metrics": [
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9865620845668129,
+      "pixel_ap": 0.5774177825631149,
+      "fpr": 0.0,
+      "recall": 1.0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "image_auroc": 0.9989285714285714,
+      "pixel_auroc": 0.9873835387651924,
+      "pixel_ap": 0.5867609295529198,
+      "fpr": 0.025,
+      "recall": 1.0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "image_auroc": 0.9992857142857142,
+      "pixel_auroc": 0.987241125605802,
+      "pixel_ap": 0.5870346064560537,
+      "fpr": 0.025,
+      "recall": 0.9714285714285714
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.988063177667936,
+      "pixel_ap": 0.5992576526967864,
+      "fpr": 0.0,
+      "recall": 0.9714285714285714
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.988063177667936,
+      "pixel_ap": 0.5992576526967864,
+      "fpr": 0.0,
+      "recall": 0.9714285714285714
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "image_auroc": 0.9971428571428571,
+      "pixel_auroc": 0.9867082861687244,
+      "pixel_ap": 0.5835519558255456,
+      "fpr": 0.05,
+      "recall": 1.0
+    }
+  ],
+  "scores": [
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/000.png",
+      "label": 1,
+      "score": 2.379711866378784,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/000.png",
+      "label": 1,
+      "score": 2.3461570739746094,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/000.png",
+      "label": 1,
+      "score": 2.2936174869537354,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/000.png",
+      "label": 1,
+      "score": 2.2976667881011963,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/000.png",
+      "label": 1,
+      "score": 2.2976667881011963,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/000.png",
+      "label": 1,
+      "score": 2.3094165325164795,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/001.png",
+      "label": 1,
+      "score": 2.254345417022705,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/001.png",
+      "label": 1,
+      "score": 2.2979648113250732,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/001.png",
+      "label": 1,
+      "score": 2.349141836166382,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/001.png",
+      "label": 1,
+      "score": 2.3430910110473633,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/001.png",
+      "label": 1,
+      "score": 2.3430910110473633,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/001.png",
+      "label": 1,
+      "score": 2.3399510383605957,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/002.png",
+      "label": 1,
+      "score": 2.1659352779388428,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/002.png",
+      "label": 1,
+      "score": 2.2165303230285645,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/002.png",
+      "label": 1,
+      "score": 2.1809213161468506,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/002.png",
+      "label": 1,
+      "score": 2.217526912689209,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/002.png",
+      "label": 1,
+      "score": 2.217526912689209,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/002.png",
+      "label": 1,
+      "score": 2.142184257507324,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/003.png",
+      "label": 1,
+      "score": 2.1610820293426514,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/003.png",
+      "label": 1,
+      "score": 2.2079429626464844,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/003.png",
+      "label": 1,
+      "score": 2.1525821685791016,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/003.png",
+      "label": 1,
+      "score": 2.1623098850250244,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/003.png",
+      "label": 1,
+      "score": 2.1623098850250244,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/003.png",
+      "label": 1,
+      "score": 2.1935462951660156,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/004.png",
+      "label": 1,
+      "score": 2.2534713745117188,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/004.png",
+      "label": 1,
+      "score": 2.3112826347351074,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/004.png",
+      "label": 1,
+      "score": 2.2408621311187744,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/004.png",
+      "label": 1,
+      "score": 2.2880914211273193,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/004.png",
+      "label": 1,
+      "score": 2.2880914211273193,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/004.png",
+      "label": 1,
+      "score": 2.2400143146514893,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/005.png",
+      "label": 1,
+      "score": 2.370842695236206,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/005.png",
+      "label": 1,
+      "score": 2.4047188758850098,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/005.png",
+      "label": 1,
+      "score": 2.393524408340454,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/005.png",
+      "label": 1,
+      "score": 2.3659651279449463,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/005.png",
+      "label": 1,
+      "score": 2.3659651279449463,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/005.png",
+      "label": 1,
+      "score": 2.3903541564941406,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/006.png",
+      "label": 1,
+      "score": 2.282435894012451,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/006.png",
+      "label": 1,
+      "score": 2.3157970905303955,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/006.png",
+      "label": 1,
+      "score": 2.3129470348358154,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/006.png",
+      "label": 1,
+      "score": 2.286609411239624,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/006.png",
+      "label": 1,
+      "score": 2.286609411239624,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/006.png",
+      "label": 1,
+      "score": 2.3247663974761963,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/007.png",
+      "label": 1,
+      "score": 2.267866611480713,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/007.png",
+      "label": 1,
+      "score": 2.3253729343414307,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/007.png",
+      "label": 1,
+      "score": 2.303171396255493,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/007.png",
+      "label": 1,
+      "score": 2.326585531234741,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/007.png",
+      "label": 1,
+      "score": 2.326585531234741,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/007.png",
+      "label": 1,
+      "score": 2.310127019882202,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/008.png",
+      "label": 1,
+      "score": 2.434633731842041,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/008.png",
+      "label": 1,
+      "score": 2.3336243629455566,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/008.png",
+      "label": 1,
+      "score": 2.3537206649780273,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/008.png",
+      "label": 1,
+      "score": 2.359938859939575,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/008.png",
+      "label": 1,
+      "score": 2.359938859939575,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/008.png",
+      "label": 1,
+      "score": 2.3699374198913574,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/009.png",
+      "label": 1,
+      "score": 2.316236734390259,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/009.png",
+      "label": 1,
+      "score": 2.3568954467773438,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/009.png",
+      "label": 1,
+      "score": 2.2861008644104004,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/009.png",
+      "label": 1,
+      "score": 2.277184009552002,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/009.png",
+      "label": 1,
+      "score": 2.277184009552002,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/009.png",
+      "label": 1,
+      "score": 2.3115687370300293,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/010.png",
+      "label": 1,
+      "score": 2.2500503063201904,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/010.png",
+      "label": 1,
+      "score": 2.256535053253174,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/010.png",
+      "label": 1,
+      "score": 2.335529327392578,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/010.png",
+      "label": 1,
+      "score": 2.3229265213012695,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/010.png",
+      "label": 1,
+      "score": 2.3229265213012695,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/010.png",
+      "label": 1,
+      "score": 2.2543342113494873,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/011.png",
+      "label": 1,
+      "score": 2.2297403812408447,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/011.png",
+      "label": 1,
+      "score": 2.224541425704956,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/011.png",
+      "label": 1,
+      "score": 2.235323429107666,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/011.png",
+      "label": 1,
+      "score": 2.239870548248291,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/011.png",
+      "label": 1,
+      "score": 2.239870548248291,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/011.png",
+      "label": 1,
+      "score": 2.3291378021240234,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/012.png",
+      "label": 1,
+      "score": 2.120917797088623,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/012.png",
+      "label": 1,
+      "score": 2.1473779678344727,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/012.png",
+      "label": 1,
+      "score": 2.1652002334594727,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/012.png",
+      "label": 1,
+      "score": 2.179706335067749,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/012.png",
+      "label": 1,
+      "score": 2.179706335067749,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/012.png",
+      "label": 1,
+      "score": 2.1816577911376953,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/013.png",
+      "label": 1,
+      "score": 2.2144575119018555,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/013.png",
+      "label": 1,
+      "score": 2.2714457511901855,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/013.png",
+      "label": 1,
+      "score": 2.2709414958953857,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/013.png",
+      "label": 1,
+      "score": 2.2457149028778076,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/013.png",
+      "label": 1,
+      "score": 2.2457149028778076,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/013.png",
+      "label": 1,
+      "score": 2.242553949356079,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/014.png",
+      "label": 1,
+      "score": 2.138885259628296,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/014.png",
+      "label": 1,
+      "score": 2.176621198654175,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/014.png",
+      "label": 1,
+      "score": 2.186375856399536,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/014.png",
+      "label": 1,
+      "score": 2.2043955326080322,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/014.png",
+      "label": 1,
+      "score": 2.2043955326080322,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/014.png",
+      "label": 1,
+      "score": 2.214820384979248,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/015.png",
+      "label": 1,
+      "score": 2.1618921756744385,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/015.png",
+      "label": 1,
+      "score": 2.1948089599609375,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/015.png",
+      "label": 1,
+      "score": 2.181187152862549,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/015.png",
+      "label": 1,
+      "score": 2.2176008224487305,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/015.png",
+      "label": 1,
+      "score": 2.2176008224487305,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/015.png",
+      "label": 1,
+      "score": 2.1952340602874756,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/016.png",
+      "label": 1,
+      "score": 2.0991454124450684,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/016.png",
+      "label": 1,
+      "score": 2.2244176864624023,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/016.png",
+      "label": 1,
+      "score": 2.0877084732055664,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/016.png",
+      "label": 1,
+      "score": 2.143941879272461,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/016.png",
+      "label": 1,
+      "score": 2.143941879272461,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/016.png",
+      "label": 1,
+      "score": 2.106757402420044,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/017.png",
+      "label": 1,
+      "score": 2.2610514163970947,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/017.png",
+      "label": 1,
+      "score": 2.2813384532928467,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/017.png",
+      "label": 1,
+      "score": 2.2168331146240234,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/017.png",
+      "label": 1,
+      "score": 2.271847724914551,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/017.png",
+      "label": 1,
+      "score": 2.271847724914551,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/crack/017.png",
+      "label": 1,
+      "score": 2.28393292427063,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/000.png",
+      "label": 1,
+      "score": 2.168492555618286,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/000.png",
+      "label": 1,
+      "score": 2.177945852279663,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/000.png",
+      "label": 1,
+      "score": 2.3142807483673096,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/000.png",
+      "label": 1,
+      "score": 2.2998008728027344,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/000.png",
+      "label": 1,
+      "score": 2.2998008728027344,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/000.png",
+      "label": 1,
+      "score": 2.2827277183532715,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/001.png",
+      "label": 1,
+      "score": 2.045896530151367,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/001.png",
+      "label": 1,
+      "score": 2.0918281078338623,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/001.png",
+      "label": 1,
+      "score": 2.0826659202575684,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/001.png",
+      "label": 1,
+      "score": 2.061580181121826,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/001.png",
+      "label": 1,
+      "score": 2.061580181121826,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/001.png",
+      "label": 1,
+      "score": 2.11075758934021,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/002.png",
+      "label": 1,
+      "score": 2.267533302307129,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/002.png",
+      "label": 1,
+      "score": 2.2715485095977783,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/002.png",
+      "label": 1,
+      "score": 2.2244436740875244,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/002.png",
+      "label": 1,
+      "score": 2.229153633117676,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/002.png",
+      "label": 1,
+      "score": 2.229153633117676,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/002.png",
+      "label": 1,
+      "score": 2.3166091442108154,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/003.png",
+      "label": 1,
+      "score": 2.286592483520508,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/003.png",
+      "label": 1,
+      "score": 2.288649082183838,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/003.png",
+      "label": 1,
+      "score": 2.283529758453369,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/003.png",
+      "label": 1,
+      "score": 2.251551389694214,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/003.png",
+      "label": 1,
+      "score": 2.251551389694214,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/003.png",
+      "label": 1,
+      "score": 2.3376669883728027,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/004.png",
+      "label": 1,
+      "score": 2.2491345405578613,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/004.png",
+      "label": 1,
+      "score": 2.2487332820892334,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/004.png",
+      "label": 1,
+      "score": 2.3201210498809814,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/004.png",
+      "label": 1,
+      "score": 2.345060348510742,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/004.png",
+      "label": 1,
+      "score": 2.345060348510742,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/004.png",
+      "label": 1,
+      "score": 2.3302886486053467,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/005.png",
+      "label": 1,
+      "score": 2.164438247680664,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/005.png",
+      "label": 1,
+      "score": 2.3043267726898193,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/005.png",
+      "label": 1,
+      "score": 2.34547758102417,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/005.png",
+      "label": 1,
+      "score": 2.266408920288086,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/005.png",
+      "label": 1,
+      "score": 2.266408920288086,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/005.png",
+      "label": 1,
+      "score": 2.3606412410736084,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/006.png",
+      "label": 1,
+      "score": 2.041232109069824,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/006.png",
+      "label": 1,
+      "score": 2.043154001235962,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/006.png",
+      "label": 1,
+      "score": 2.040785789489746,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/006.png",
+      "label": 1,
+      "score": 2.0524182319641113,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/006.png",
+      "label": 1,
+      "score": 2.0524182319641113,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/006.png",
+      "label": 1,
+      "score": 2.110865592956543,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/007.png",
+      "label": 1,
+      "score": 2.164135217666626,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/007.png",
+      "label": 1,
+      "score": 2.241408586502075,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/007.png",
+      "label": 1,
+      "score": 2.212881088256836,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/007.png",
+      "label": 1,
+      "score": 2.170867681503296,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/007.png",
+      "label": 1,
+      "score": 2.170867681503296,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/007.png",
+      "label": 1,
+      "score": 2.229261636734009,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/008.png",
+      "label": 1,
+      "score": 2.112217664718628,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/008.png",
+      "label": 1,
+      "score": 2.1711466312408447,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/008.png",
+      "label": 1,
+      "score": 2.136171817779541,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/008.png",
+      "label": 1,
+      "score": 2.131376028060913,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/008.png",
+      "label": 1,
+      "score": 2.131376028060913,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/008.png",
+      "label": 1,
+      "score": 2.187232255935669,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/009.png",
+      "label": 1,
+      "score": 2.041497230529785,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/009.png",
+      "label": 1,
+      "score": 2.0856494903564453,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/009.png",
+      "label": 1,
+      "score": 2.040679693222046,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/009.png",
+      "label": 1,
+      "score": 2.029752492904663,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/009.png",
+      "label": 1,
+      "score": 2.029752492904663,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/009.png",
+      "label": 1,
+      "score": 2.1902854442596436,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/010.png",
+      "label": 1,
+      "score": 2.2676947116851807,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/010.png",
+      "label": 1,
+      "score": 2.1593611240386963,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/010.png",
+      "label": 1,
+      "score": 2.182461738586426,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/010.png",
+      "label": 1,
+      "score": 2.182795524597168,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/010.png",
+      "label": 1,
+      "score": 2.182795524597168,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/010.png",
+      "label": 1,
+      "score": 2.2951393127441406,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/011.png",
+      "label": 1,
+      "score": 2.200141668319702,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/011.png",
+      "label": 1,
+      "score": 2.2305827140808105,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/011.png",
+      "label": 1,
+      "score": 2.211838960647583,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/011.png",
+      "label": 1,
+      "score": 2.1921916007995605,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/011.png",
+      "label": 1,
+      "score": 2.1921916007995605,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/011.png",
+      "label": 1,
+      "score": 2.275622606277466,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/012.png",
+      "label": 1,
+      "score": 2.3443515300750732,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/012.png",
+      "label": 1,
+      "score": 2.243565559387207,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/012.png",
+      "label": 1,
+      "score": 2.25101637840271,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/012.png",
+      "label": 1,
+      "score": 2.2438886165618896,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/012.png",
+      "label": 1,
+      "score": 2.2438886165618896,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/012.png",
+      "label": 1,
+      "score": 2.4201784133911133,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/013.png",
+      "label": 1,
+      "score": 2.2388617992401123,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/013.png",
+      "label": 1,
+      "score": 2.317330837249756,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/013.png",
+      "label": 1,
+      "score": 2.2435150146484375,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/013.png",
+      "label": 1,
+      "score": 2.23895263671875,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/013.png",
+      "label": 1,
+      "score": 2.23895263671875,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/013.png",
+      "label": 1,
+      "score": 2.292855739593506,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/014.png",
+      "label": 1,
+      "score": 2.1094071865081787,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/014.png",
+      "label": 1,
+      "score": 2.1145286560058594,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/014.png",
+      "label": 1,
+      "score": 2.1369450092315674,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/014.png",
+      "label": 1,
+      "score": 2.14096999168396,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/014.png",
+      "label": 1,
+      "score": 2.14096999168396,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/014.png",
+      "label": 1,
+      "score": 2.1080024242401123,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/015.png",
+      "label": 1,
+      "score": 2.1699681282043457,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/015.png",
+      "label": 1,
+      "score": 2.207016706466675,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/015.png",
+      "label": 1,
+      "score": 2.150725841522217,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/015.png",
+      "label": 1,
+      "score": 2.1778807640075684,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/015.png",
+      "label": 1,
+      "score": 2.1778807640075684,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/015.png",
+      "label": 1,
+      "score": 2.1382343769073486,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/016.png",
+      "label": 1,
+      "score": 2.2246367931365967,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/016.png",
+      "label": 1,
+      "score": 2.198206663131714,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/016.png",
+      "label": 1,
+      "score": 2.230825424194336,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/016.png",
+      "label": 1,
+      "score": 2.219433307647705,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/016.png",
+      "label": 1,
+      "score": 2.219433307647705,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/cut/016.png",
+      "label": 1,
+      "score": 2.221344470977783,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/000.png",
+      "label": 0,
+      "score": 1.8647338151931763,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/000.png",
+      "label": 0,
+      "score": 1.861828088760376,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/000.png",
+      "label": 0,
+      "score": 1.8778821229934692,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/000.png",
+      "label": 0,
+      "score": 1.8262197971343994,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/000.png",
+      "label": 0,
+      "score": 1.8262197971343994,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/000.png",
+      "label": 0,
+      "score": 1.8260524272918701,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/001.png",
+      "label": 0,
+      "score": 1.8515632152557373,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/001.png",
+      "label": 0,
+      "score": 1.8731026649475098,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/001.png",
+      "label": 0,
+      "score": 1.8424046039581299,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/001.png",
+      "label": 0,
+      "score": 1.8821179866790771,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/001.png",
+      "label": 0,
+      "score": 1.8821179866790771,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/001.png",
+      "label": 0,
+      "score": 1.8937596082687378,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/002.png",
+      "label": 0,
+      "score": 1.8908360004425049,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/002.png",
+      "label": 0,
+      "score": 1.8929349184036255,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/002.png",
+      "label": 0,
+      "score": 1.9020590782165527,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/002.png",
+      "label": 0,
+      "score": 1.8980833292007446,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/002.png",
+      "label": 0,
+      "score": 1.8980833292007446,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/002.png",
+      "label": 0,
+      "score": 1.9094665050506592,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/003.png",
+      "label": 0,
+      "score": 1.8408775329589844,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/003.png",
+      "label": 0,
+      "score": 1.8570022583007812,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/003.png",
+      "label": 0,
+      "score": 1.8065400123596191,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/003.png",
+      "label": 0,
+      "score": 1.7442259788513184,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/003.png",
+      "label": 0,
+      "score": 1.7442259788513184,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/003.png",
+      "label": 0,
+      "score": 1.7980834245681763,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/004.png",
+      "label": 0,
+      "score": 1.8268089294433594,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/004.png",
+      "label": 0,
+      "score": 1.8803436756134033,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/004.png",
+      "label": 0,
+      "score": 1.8580827713012695,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/004.png",
+      "label": 0,
+      "score": 1.8608556985855103,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/004.png",
+      "label": 0,
+      "score": 1.8608556985855103,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/004.png",
+      "label": 0,
+      "score": 1.7964383363723755,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/005.png",
+      "label": 0,
+      "score": 1.869149088859558,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/005.png",
+      "label": 0,
+      "score": 1.888153076171875,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/005.png",
+      "label": 0,
+      "score": 1.926395297050476,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/005.png",
+      "label": 0,
+      "score": 1.866180419921875,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/005.png",
+      "label": 0,
+      "score": 1.866180419921875,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/005.png",
+      "label": 0,
+      "score": 1.9320869445800781,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/006.png",
+      "label": 0,
+      "score": 1.7911851406097412,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/006.png",
+      "label": 0,
+      "score": 1.8785343170166016,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/006.png",
+      "label": 0,
+      "score": 1.806429147720337,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/006.png",
+      "label": 0,
+      "score": 1.822258710861206,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/006.png",
+      "label": 0,
+      "score": 1.822258710861206,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/006.png",
+      "label": 0,
+      "score": 1.8299187421798706,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/007.png",
+      "label": 0,
+      "score": 1.9446275234222412,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/007.png",
+      "label": 0,
+      "score": 1.929924726486206,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/007.png",
+      "label": 0,
+      "score": 1.949884057044983,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/007.png",
+      "label": 0,
+      "score": 1.9183274507522583,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/007.png",
+      "label": 0,
+      "score": 1.9183274507522583,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/007.png",
+      "label": 0,
+      "score": 1.9546667337417603,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/008.png",
+      "label": 0,
+      "score": 1.8518997430801392,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/008.png",
+      "label": 0,
+      "score": 1.9147834777832031,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/008.png",
+      "label": 0,
+      "score": 1.8740670680999756,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/008.png",
+      "label": 0,
+      "score": 1.8718316555023193,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/008.png",
+      "label": 0,
+      "score": 1.8718316555023193,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/008.png",
+      "label": 0,
+      "score": 1.9415245056152344,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/009.png",
+      "label": 0,
+      "score": 1.9326179027557373,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/009.png",
+      "label": 0,
+      "score": 1.9341752529144287,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/009.png",
+      "label": 0,
+      "score": 1.8556846380233765,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/009.png",
+      "label": 0,
+      "score": 1.8791555166244507,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/009.png",
+      "label": 0,
+      "score": 1.8791555166244507,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/009.png",
+      "label": 0,
+      "score": 1.8548699617385864,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/010.png",
+      "label": 0,
+      "score": 1.7918423414230347,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/010.png",
+      "label": 0,
+      "score": 1.8835551738739014,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/010.png",
+      "label": 0,
+      "score": 1.7788887023925781,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/010.png",
+      "label": 0,
+      "score": 1.837891697883606,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/010.png",
+      "label": 0,
+      "score": 1.837891697883606,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/010.png",
+      "label": 0,
+      "score": 1.8424679040908813,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/011.png",
+      "label": 0,
+      "score": 1.8008531332015991,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/011.png",
+      "label": 0,
+      "score": 1.8616832494735718,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/011.png",
+      "label": 0,
+      "score": 1.882103681564331,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/011.png",
+      "label": 0,
+      "score": 1.8900779485702515,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/011.png",
+      "label": 0,
+      "score": 1.8900779485702515,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/011.png",
+      "label": 0,
+      "score": 1.878327488899231,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/012.png",
+      "label": 0,
+      "score": 1.7990436553955078,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/012.png",
+      "label": 0,
+      "score": 1.8554456233978271,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/012.png",
+      "label": 0,
+      "score": 1.8652629852294922,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/012.png",
+      "label": 0,
+      "score": 1.882259726524353,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/012.png",
+      "label": 0,
+      "score": 1.882259726524353,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/012.png",
+      "label": 0,
+      "score": 1.9056645631790161,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/013.png",
+      "label": 0,
+      "score": 1.8660672903060913,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/013.png",
+      "label": 0,
+      "score": 1.8602032661437988,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/013.png",
+      "label": 0,
+      "score": 1.8606595993041992,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/013.png",
+      "label": 0,
+      "score": 1.8598740100860596,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/013.png",
+      "label": 0,
+      "score": 1.8598740100860596,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/013.png",
+      "label": 0,
+      "score": 1.9009802341461182,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/014.png",
+      "label": 0,
+      "score": 1.918452262878418,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/014.png",
+      "label": 0,
+      "score": 1.9298402070999146,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/014.png",
+      "label": 0,
+      "score": 1.870841383934021,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/014.png",
+      "label": 0,
+      "score": 1.8613113164901733,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/014.png",
+      "label": 0,
+      "score": 1.8613113164901733,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/014.png",
+      "label": 0,
+      "score": 1.880710244178772,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/015.png",
+      "label": 0,
+      "score": 1.8442661762237549,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/015.png",
+      "label": 0,
+      "score": 1.8279563188552856,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/015.png",
+      "label": 0,
+      "score": 1.9310306310653687,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/015.png",
+      "label": 0,
+      "score": 1.9535574913024902,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/015.png",
+      "label": 0,
+      "score": 1.9535574913024902,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/015.png",
+      "label": 0,
+      "score": 1.872340202331543,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/016.png",
+      "label": 0,
+      "score": 1.893242597579956,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/016.png",
+      "label": 0,
+      "score": 1.9517103433609009,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/016.png",
+      "label": 0,
+      "score": 1.885202169418335,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/016.png",
+      "label": 0,
+      "score": 1.8869633674621582,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/016.png",
+      "label": 0,
+      "score": 1.8869633674621582,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/016.png",
+      "label": 0,
+      "score": 1.915040135383606,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/017.png",
+      "label": 0,
+      "score": 1.879754662513733,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/017.png",
+      "label": 0,
+      "score": 1.8940807580947876,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/017.png",
+      "label": 0,
+      "score": 1.8649332523345947,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/017.png",
+      "label": 0,
+      "score": 1.8919329643249512,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/017.png",
+      "label": 0,
+      "score": 1.8919329643249512,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/017.png",
+      "label": 0,
+      "score": 1.8936065435409546,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/018.png",
+      "label": 0,
+      "score": 1.8045134544372559,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/018.png",
+      "label": 0,
+      "score": 1.8628932237625122,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/018.png",
+      "label": 0,
+      "score": 1.8370404243469238,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/018.png",
+      "label": 0,
+      "score": 1.8388663530349731,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/018.png",
+      "label": 0,
+      "score": 1.8388663530349731,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/018.png",
+      "label": 0,
+      "score": 1.9194496870040894,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/019.png",
+      "label": 0,
+      "score": 1.875245213508606,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/019.png",
+      "label": 0,
+      "score": 1.880033254623413,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/019.png",
+      "label": 0,
+      "score": 1.9366663694381714,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/019.png",
+      "label": 0,
+      "score": 1.9366663694381714,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/019.png",
+      "label": 0,
+      "score": 1.9366663694381714,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/019.png",
+      "label": 0,
+      "score": 1.9320015907287598,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/020.png",
+      "label": 0,
+      "score": 1.758021593093872,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/020.png",
+      "label": 0,
+      "score": 1.8642512559890747,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/020.png",
+      "label": 0,
+      "score": 1.8540034294128418,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/020.png",
+      "label": 0,
+      "score": 1.8117989301681519,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/020.png",
+      "label": 0,
+      "score": 1.8117989301681519,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/020.png",
+      "label": 0,
+      "score": 1.8758848905563354,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/021.png",
+      "label": 0,
+      "score": 1.8505072593688965,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/021.png",
+      "label": 0,
+      "score": 1.857488989830017,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/021.png",
+      "label": 0,
+      "score": 1.8392584323883057,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/021.png",
+      "label": 0,
+      "score": 1.835527777671814,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/021.png",
+      "label": 0,
+      "score": 1.835527777671814,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/021.png",
+      "label": 0,
+      "score": 1.919196605682373,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/022.png",
+      "label": 0,
+      "score": 1.8877837657928467,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/022.png",
+      "label": 0,
+      "score": 1.8529289960861206,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/022.png",
+      "label": 0,
+      "score": 1.8638867139816284,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/022.png",
+      "label": 0,
+      "score": 1.8874832391738892,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/022.png",
+      "label": 0,
+      "score": 1.8874832391738892,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/022.png",
+      "label": 0,
+      "score": 1.8826608657836914,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/023.png",
+      "label": 0,
+      "score": 1.8206545114517212,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/023.png",
+      "label": 0,
+      "score": 1.8110229969024658,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/023.png",
+      "label": 0,
+      "score": 1.837847352027893,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/023.png",
+      "label": 0,
+      "score": 1.838141918182373,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/023.png",
+      "label": 0,
+      "score": 1.838141918182373,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/023.png",
+      "label": 0,
+      "score": 1.822724461555481,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/024.png",
+      "label": 0,
+      "score": 1.847397804260254,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/024.png",
+      "label": 0,
+      "score": 1.8400275707244873,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/024.png",
+      "label": 0,
+      "score": 1.8594530820846558,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/024.png",
+      "label": 0,
+      "score": 1.884435772895813,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/024.png",
+      "label": 0,
+      "score": 1.884435772895813,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/024.png",
+      "label": 0,
+      "score": 1.905260443687439,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/025.png",
+      "label": 0,
+      "score": 1.875284194946289,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/025.png",
+      "label": 0,
+      "score": 1.8327256441116333,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/025.png",
+      "label": 0,
+      "score": 1.9185242652893066,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/025.png",
+      "label": 0,
+      "score": 1.8734270334243774,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/025.png",
+      "label": 0,
+      "score": 1.8734270334243774,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/025.png",
+      "label": 0,
+      "score": 1.871123194694519,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/026.png",
+      "label": 0,
+      "score": 1.7960402965545654,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/026.png",
+      "label": 0,
+      "score": 1.8701717853546143,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/026.png",
+      "label": 0,
+      "score": 1.7950952053070068,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/026.png",
+      "label": 0,
+      "score": 1.8209792375564575,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/026.png",
+      "label": 0,
+      "score": 1.8209792375564575,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/026.png",
+      "label": 0,
+      "score": 1.8009719848632812,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/027.png",
+      "label": 0,
+      "score": 1.8897130489349365,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/027.png",
+      "label": 0,
+      "score": 1.9776843786239624,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/027.png",
+      "label": 0,
+      "score": 1.8868253231048584,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/027.png",
+      "label": 0,
+      "score": 1.8730864524841309,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/027.png",
+      "label": 0,
+      "score": 1.8730864524841309,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/027.png",
+      "label": 0,
+      "score": 1.9303327798843384,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/028.png",
+      "label": 0,
+      "score": 1.873794674873352,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/028.png",
+      "label": 0,
+      "score": 1.8672335147857666,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/028.png",
+      "label": 0,
+      "score": 1.9038803577423096,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/028.png",
+      "label": 0,
+      "score": 1.8593568801879883,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/028.png",
+      "label": 0,
+      "score": 1.8593568801879883,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/028.png",
+      "label": 0,
+      "score": 1.8817416429519653,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/029.png",
+      "label": 0,
+      "score": 1.82216477394104,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/029.png",
+      "label": 0,
+      "score": 1.8623138666152954,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/029.png",
+      "label": 0,
+      "score": 1.8360882997512817,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/029.png",
+      "label": 0,
+      "score": 1.8383560180664062,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/029.png",
+      "label": 0,
+      "score": 1.8383560180664062,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/029.png",
+      "label": 0,
+      "score": 1.8830559253692627,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/030.png",
+      "label": 0,
+      "score": 1.8035755157470703,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/030.png",
+      "label": 0,
+      "score": 1.870336651802063,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/030.png",
+      "label": 0,
+      "score": 1.8548318147659302,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/030.png",
+      "label": 0,
+      "score": 1.797944188117981,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/030.png",
+      "label": 0,
+      "score": 1.797944188117981,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/030.png",
+      "label": 0,
+      "score": 1.868757724761963,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/031.png",
+      "label": 0,
+      "score": 1.8464405536651611,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/031.png",
+      "label": 0,
+      "score": 1.8766660690307617,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/031.png",
+      "label": 0,
+      "score": 1.8962966203689575,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/031.png",
+      "label": 0,
+      "score": 1.909666657447815,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/031.png",
+      "label": 0,
+      "score": 1.909666657447815,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/031.png",
+      "label": 0,
+      "score": 1.8446972370147705,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/032.png",
+      "label": 0,
+      "score": 1.8838160037994385,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/032.png",
+      "label": 0,
+      "score": 1.9650903940200806,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/032.png",
+      "label": 0,
+      "score": 1.9115663766860962,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/032.png",
+      "label": 0,
+      "score": 1.9102283716201782,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/032.png",
+      "label": 0,
+      "score": 1.9102283716201782,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/032.png",
+      "label": 0,
+      "score": 1.932414174079895,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/033.png",
+      "label": 0,
+      "score": 1.8578382730484009,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/033.png",
+      "label": 0,
+      "score": 1.8420032262802124,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/033.png",
+      "label": 0,
+      "score": 1.8935704231262207,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/033.png",
+      "label": 0,
+      "score": 1.8994394540786743,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/033.png",
+      "label": 0,
+      "score": 1.8994394540786743,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/033.png",
+      "label": 0,
+      "score": 1.925351619720459,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/034.png",
+      "label": 0,
+      "score": 1.889923095703125,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/034.png",
+      "label": 0,
+      "score": 1.8366715908050537,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/034.png",
+      "label": 0,
+      "score": 1.817676305770874,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/034.png",
+      "label": 0,
+      "score": 1.8794621229171753,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/034.png",
+      "label": 0,
+      "score": 1.8794621229171753,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/034.png",
+      "label": 0,
+      "score": 1.903331995010376,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/035.png",
+      "label": 0,
+      "score": 1.7903833389282227,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/035.png",
+      "label": 0,
+      "score": 1.7888835668563843,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/035.png",
+      "label": 0,
+      "score": 1.8438994884490967,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/035.png",
+      "label": 0,
+      "score": 1.8723268508911133,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/035.png",
+      "label": 0,
+      "score": 1.8723268508911133,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/035.png",
+      "label": 0,
+      "score": 1.8270469903945923,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/036.png",
+      "label": 0,
+      "score": 1.93544340133667,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/036.png",
+      "label": 0,
+      "score": 2.1020970344543457,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/036.png",
+      "label": 0,
+      "score": 2.0662317276000977,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/036.png",
+      "label": 0,
+      "score": 1.9838261604309082,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/036.png",
+      "label": 0,
+      "score": 1.9838261604309082,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/036.png",
+      "label": 0,
+      "score": 2.1899564266204834,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/037.png",
+      "label": 0,
+      "score": 1.7743571996688843,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/037.png",
+      "label": 0,
+      "score": 1.8003673553466797,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/037.png",
+      "label": 0,
+      "score": 1.8499070405960083,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/037.png",
+      "label": 0,
+      "score": 1.8777179718017578,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/037.png",
+      "label": 0,
+      "score": 1.8777179718017578,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/037.png",
+      "label": 0,
+      "score": 1.8489197492599487,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/038.png",
+      "label": 0,
+      "score": 1.8232935667037964,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/038.png",
+      "label": 0,
+      "score": 1.9318097829818726,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/038.png",
+      "label": 0,
+      "score": 1.8288495540618896,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/038.png",
+      "label": 0,
+      "score": 1.8604544401168823,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/038.png",
+      "label": 0,
+      "score": 1.8604544401168823,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/038.png",
+      "label": 0,
+      "score": 1.8832448720932007,
+      "prediction": 0
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/039.png",
+      "label": 0,
+      "score": 1.9281831979751587,
+      "prediction": 0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/039.png",
+      "label": 0,
+      "score": 1.909769892692566,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/039.png",
+      "label": 0,
+      "score": 1.9140801429748535,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/039.png",
+      "label": 0,
+      "score": 1.9276098012924194,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/039.png",
+      "label": 0,
+      "score": 1.9276098012924194,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/good/039.png",
+      "label": 0,
+      "score": 2.0747578144073486,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/000.png",
+      "label": 1,
+      "score": 2.2453784942626953,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/000.png",
+      "label": 1,
+      "score": 2.3176920413970947,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/000.png",
+      "label": 1,
+      "score": 2.2503626346588135,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/000.png",
+      "label": 1,
+      "score": 2.255765438079834,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/000.png",
+      "label": 1,
+      "score": 2.255765438079834,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/000.png",
+      "label": 1,
+      "score": 2.3168883323669434,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/001.png",
+      "label": 1,
+      "score": 2.529001474380493,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/001.png",
+      "label": 1,
+      "score": 2.450042724609375,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/001.png",
+      "label": 1,
+      "score": 2.487398147583008,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/001.png",
+      "label": 1,
+      "score": 2.461247444152832,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/001.png",
+      "label": 1,
+      "score": 2.461247444152832,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/001.png",
+      "label": 1,
+      "score": 2.46429443359375,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/002.png",
+      "label": 1,
+      "score": 2.5217182636260986,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/002.png",
+      "label": 1,
+      "score": 2.5657408237457275,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/002.png",
+      "label": 1,
+      "score": 2.5161845684051514,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/002.png",
+      "label": 1,
+      "score": 2.5259382724761963,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/002.png",
+      "label": 1,
+      "score": 2.5259382724761963,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/002.png",
+      "label": 1,
+      "score": 2.5406877994537354,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/003.png",
+      "label": 1,
+      "score": 2.5335018634796143,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/003.png",
+      "label": 1,
+      "score": 2.5603818893432617,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/003.png",
+      "label": 1,
+      "score": 2.538884401321411,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/003.png",
+      "label": 1,
+      "score": 2.6493418216705322,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/003.png",
+      "label": 1,
+      "score": 2.6493418216705322,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/003.png",
+      "label": 1,
+      "score": 2.5805907249450684,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/004.png",
+      "label": 1,
+      "score": 2.40358567237854,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/004.png",
+      "label": 1,
+      "score": 2.3802273273468018,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/004.png",
+      "label": 1,
+      "score": 2.405904769897461,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/004.png",
+      "label": 1,
+      "score": 2.411705732345581,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/004.png",
+      "label": 1,
+      "score": 2.411705732345581,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/004.png",
+      "label": 1,
+      "score": 2.3806982040405273,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/005.png",
+      "label": 1,
+      "score": 2.31431245803833,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/005.png",
+      "label": 1,
+      "score": 2.346264362335205,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/005.png",
+      "label": 1,
+      "score": 2.3409035205841064,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/005.png",
+      "label": 1,
+      "score": 2.313497543334961,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/005.png",
+      "label": 1,
+      "score": 2.313497543334961,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/005.png",
+      "label": 1,
+      "score": 2.346409320831299,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/006.png",
+      "label": 1,
+      "score": 2.327094793319702,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/006.png",
+      "label": 1,
+      "score": 2.3628644943237305,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/006.png",
+      "label": 1,
+      "score": 2.3665459156036377,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/006.png",
+      "label": 1,
+      "score": 2.3854100704193115,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/006.png",
+      "label": 1,
+      "score": 2.3854100704193115,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/006.png",
+      "label": 1,
+      "score": 2.341045618057251,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/007.png",
+      "label": 1,
+      "score": 3.0978217124938965,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/007.png",
+      "label": 1,
+      "score": 2.704301357269287,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/007.png",
+      "label": 1,
+      "score": 3.0336368083953857,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/007.png",
+      "label": 1,
+      "score": 3.0221505165100098,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/007.png",
+      "label": 1,
+      "score": 3.0221505165100098,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/007.png",
+      "label": 1,
+      "score": 2.7164268493652344,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/008.png",
+      "label": 1,
+      "score": 2.2918059825897217,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/008.png",
+      "label": 1,
+      "score": 2.277357578277588,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/008.png",
+      "label": 1,
+      "score": 2.2900424003601074,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/008.png",
+      "label": 1,
+      "score": 2.291846752166748,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/008.png",
+      "label": 1,
+      "score": 2.291846752166748,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/008.png",
+      "label": 1,
+      "score": 2.2839887142181396,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/009.png",
+      "label": 1,
+      "score": 2.303710699081421,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/009.png",
+      "label": 1,
+      "score": 2.271091938018799,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/009.png",
+      "label": 1,
+      "score": 2.2707087993621826,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/009.png",
+      "label": 1,
+      "score": 2.2720353603363037,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/009.png",
+      "label": 1,
+      "score": 2.2720353603363037,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/009.png",
+      "label": 1,
+      "score": 2.375784397125244,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/010.png",
+      "label": 1,
+      "score": 2.3281667232513428,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/010.png",
+      "label": 1,
+      "score": 2.357714891433716,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/010.png",
+      "label": 1,
+      "score": 2.3205928802490234,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/010.png",
+      "label": 1,
+      "score": 2.3205928802490234,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/010.png",
+      "label": 1,
+      "score": 2.3205928802490234,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/010.png",
+      "label": 1,
+      "score": 2.34812331199646,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/011.png",
+      "label": 1,
+      "score": 2.287163496017456,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/011.png",
+      "label": 1,
+      "score": 2.325777530670166,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/011.png",
+      "label": 1,
+      "score": 2.307197332382202,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/011.png",
+      "label": 1,
+      "score": 2.324514865875244,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/011.png",
+      "label": 1,
+      "score": 2.324514865875244,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/011.png",
+      "label": 1,
+      "score": 2.335578441619873,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/012.png",
+      "label": 1,
+      "score": 2.4121949672698975,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/012.png",
+      "label": 1,
+      "score": 2.3669586181640625,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/012.png",
+      "label": 1,
+      "score": 2.410252809524536,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/012.png",
+      "label": 1,
+      "score": 2.413684129714966,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/012.png",
+      "label": 1,
+      "score": 2.413684129714966,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/012.png",
+      "label": 1,
+      "score": 2.389409065246582,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/013.png",
+      "label": 1,
+      "score": 2.26414155960083,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/013.png",
+      "label": 1,
+      "score": 2.2760839462280273,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/013.png",
+      "label": 1,
+      "score": 2.291625738143921,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/013.png",
+      "label": 1,
+      "score": 2.28999662399292,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/013.png",
+      "label": 1,
+      "score": 2.28999662399292,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/013.png",
+      "label": 1,
+      "score": 2.302177667617798,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/014.png",
+      "label": 1,
+      "score": 2.3140079975128174,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/014.png",
+      "label": 1,
+      "score": 2.2930657863616943,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/014.png",
+      "label": 1,
+      "score": 2.2805869579315186,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/014.png",
+      "label": 1,
+      "score": 2.237501859664917,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/014.png",
+      "label": 1,
+      "score": 2.237501859664917,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/014.png",
+      "label": 1,
+      "score": 2.2889628410339355,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/015.png",
+      "label": 1,
+      "score": 2.265787124633789,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/015.png",
+      "label": 1,
+      "score": 2.284527540206909,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/015.png",
+      "label": 1,
+      "score": 2.323897123336792,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/015.png",
+      "label": 1,
+      "score": 2.3550162315368652,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/015.png",
+      "label": 1,
+      "score": 2.3550162315368652,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/015.png",
+      "label": 1,
+      "score": 2.2841732501983643,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/016.png",
+      "label": 1,
+      "score": 2.0905017852783203,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/016.png",
+      "label": 1,
+      "score": 2.1724953651428223,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/016.png",
+      "label": 1,
+      "score": 2.125458240509033,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/016.png",
+      "label": 1,
+      "score": 2.1240084171295166,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/016.png",
+      "label": 1,
+      "score": 2.1240084171295166,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/016.png",
+      "label": 1,
+      "score": 2.1991801261901855,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/017.png",
+      "label": 1,
+      "score": 2.271117687225342,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/017.png",
+      "label": 1,
+      "score": 2.294022798538208,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/017.png",
+      "label": 1,
+      "score": 2.3140721321105957,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/017.png",
+      "label": 1,
+      "score": 2.3127851486206055,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/017.png",
+      "label": 1,
+      "score": 2.3127851486206055,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/hole/017.png",
+      "label": 1,
+      "score": 2.258194923400879,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/000.png",
+      "label": 1,
+      "score": 2.633852005004883,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/000.png",
+      "label": 1,
+      "score": 2.621326446533203,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/000.png",
+      "label": 1,
+      "score": 2.631502866744995,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/000.png",
+      "label": 1,
+      "score": 2.630052328109741,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/000.png",
+      "label": 1,
+      "score": 2.630052328109741,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/000.png",
+      "label": 1,
+      "score": 2.626120090484619,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/001.png",
+      "label": 1,
+      "score": 2.4353342056274414,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/001.png",
+      "label": 1,
+      "score": 2.4804587364196777,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/001.png",
+      "label": 1,
+      "score": 2.5410282611846924,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/001.png",
+      "label": 1,
+      "score": 2.5457680225372314,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/001.png",
+      "label": 1,
+      "score": 2.5457680225372314,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/001.png",
+      "label": 1,
+      "score": 2.4878556728363037,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/002.png",
+      "label": 1,
+      "score": 2.8409197330474854,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/002.png",
+      "label": 1,
+      "score": 2.828533887863159,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/002.png",
+      "label": 1,
+      "score": 2.8281850814819336,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/002.png",
+      "label": 1,
+      "score": 2.833449125289917,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/002.png",
+      "label": 1,
+      "score": 2.833449125289917,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/002.png",
+      "label": 1,
+      "score": 2.80857253074646,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/003.png",
+      "label": 1,
+      "score": 2.2831764221191406,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/003.png",
+      "label": 1,
+      "score": 2.24739408493042,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/003.png",
+      "label": 1,
+      "score": 2.2533795833587646,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/003.png",
+      "label": 1,
+      "score": 2.251460552215576,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/003.png",
+      "label": 1,
+      "score": 2.251460552215576,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/003.png",
+      "label": 1,
+      "score": 2.2300236225128174,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/004.png",
+      "label": 1,
+      "score": 2.3579862117767334,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/004.png",
+      "label": 1,
+      "score": 2.3947336673736572,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/004.png",
+      "label": 1,
+      "score": 2.4406776428222656,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/004.png",
+      "label": 1,
+      "score": 2.4739747047424316,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/004.png",
+      "label": 1,
+      "score": 2.4739747047424316,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/004.png",
+      "label": 1,
+      "score": 2.432302951812744,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/005.png",
+      "label": 1,
+      "score": 2.404050827026367,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/005.png",
+      "label": 1,
+      "score": 2.3899519443511963,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/005.png",
+      "label": 1,
+      "score": 2.424407482147217,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/005.png",
+      "label": 1,
+      "score": 2.4244656562805176,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/005.png",
+      "label": 1,
+      "score": 2.4244656562805176,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/005.png",
+      "label": 1,
+      "score": 2.3075387477874756,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/006.png",
+      "label": 1,
+      "score": 2.654742479324341,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/006.png",
+      "label": 1,
+      "score": 2.6571085453033447,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/006.png",
+      "label": 1,
+      "score": 2.6556718349456787,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/006.png",
+      "label": 1,
+      "score": 2.6914050579071045,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/006.png",
+      "label": 1,
+      "score": 2.6914050579071045,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/006.png",
+      "label": 1,
+      "score": 2.6952929496765137,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/007.png",
+      "label": 1,
+      "score": 2.470388174057007,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/007.png",
+      "label": 1,
+      "score": 2.488346576690674,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/007.png",
+      "label": 1,
+      "score": 2.4844908714294434,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/007.png",
+      "label": 1,
+      "score": 2.4738192558288574,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/007.png",
+      "label": 1,
+      "score": 2.4738192558288574,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/007.png",
+      "label": 1,
+      "score": 2.420133113861084,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/008.png",
+      "label": 1,
+      "score": 3.1911070346832275,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/008.png",
+      "label": 1,
+      "score": 3.159501314163208,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/008.png",
+      "label": 1,
+      "score": 3.20509934425354,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/008.png",
+      "label": 1,
+      "score": 3.2040421962738037,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/008.png",
+      "label": 1,
+      "score": 3.2040421962738037,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/008.png",
+      "label": 1,
+      "score": 3.143855571746826,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/009.png",
+      "label": 1,
+      "score": 2.2500853538513184,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/009.png",
+      "label": 1,
+      "score": 2.306886672973633,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/009.png",
+      "label": 1,
+      "score": 2.320472240447998,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/009.png",
+      "label": 1,
+      "score": 2.230496406555176,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/009.png",
+      "label": 1,
+      "score": 2.230496406555176,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/009.png",
+      "label": 1,
+      "score": 2.317408800125122,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/010.png",
+      "label": 1,
+      "score": 2.5871872901916504,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/010.png",
+      "label": 1,
+      "score": 2.6036782264709473,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/010.png",
+      "label": 1,
+      "score": 2.632002353668213,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/010.png",
+      "label": 1,
+      "score": 2.601551055908203,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/010.png",
+      "label": 1,
+      "score": 2.601551055908203,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/010.png",
+      "label": 1,
+      "score": 2.6125500202178955,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/011.png",
+      "label": 1,
+      "score": 2.4724419116973877,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/011.png",
+      "label": 1,
+      "score": 2.464815616607666,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/011.png",
+      "label": 1,
+      "score": 2.5050594806671143,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/011.png",
+      "label": 1,
+      "score": 2.4998292922973633,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/011.png",
+      "label": 1,
+      "score": 2.4998292922973633,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/011.png",
+      "label": 1,
+      "score": 2.4210433959960938,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/012.png",
+      "label": 1,
+      "score": 2.6669039726257324,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/012.png",
+      "label": 1,
+      "score": 2.5959155559539795,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/012.png",
+      "label": 1,
+      "score": 2.6332647800445557,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/012.png",
+      "label": 1,
+      "score": 2.6110997200012207,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/012.png",
+      "label": 1,
+      "score": 2.6110997200012207,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/012.png",
+      "label": 1,
+      "score": 2.59696626663208,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/013.png",
+      "label": 1,
+      "score": 2.30549693107605,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/013.png",
+      "label": 1,
+      "score": 2.269948720932007,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/013.png",
+      "label": 1,
+      "score": 2.293947458267212,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/013.png",
+      "label": 1,
+      "score": 2.2985947132110596,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/013.png",
+      "label": 1,
+      "score": 2.2985947132110596,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/013.png",
+      "label": 1,
+      "score": 2.2625608444213867,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/014.png",
+      "label": 1,
+      "score": 2.3410274982452393,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/014.png",
+      "label": 1,
+      "score": 2.343351125717163,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/014.png",
+      "label": 1,
+      "score": 2.3209125995635986,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/014.png",
+      "label": 1,
+      "score": 2.315546989440918,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/014.png",
+      "label": 1,
+      "score": 2.315546989440918,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/014.png",
+      "label": 1,
+      "score": 2.3160669803619385,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/015.png",
+      "label": 1,
+      "score": 2.170062780380249,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/015.png",
+      "label": 1,
+      "score": 2.153972625732422,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/015.png",
+      "label": 1,
+      "score": 2.156013250350952,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/015.png",
+      "label": 1,
+      "score": 2.158484935760498,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/015.png",
+      "label": 1,
+      "score": 2.158484935760498,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/015.png",
+      "label": 1,
+      "score": 2.2108752727508545,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/016.png",
+      "label": 1,
+      "score": 2.315033197402954,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/016.png",
+      "label": 1,
+      "score": 2.3668277263641357,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/016.png",
+      "label": 1,
+      "score": 2.3433520793914795,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/016.png",
+      "label": 1,
+      "score": 2.3444876670837402,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/016.png",
+      "label": 1,
+      "score": 2.3444876670837402,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.60",
+      "file": "hazelnut/test/print/016.png",
+      "label": 1,
+      "score": 2.3851611614227295,
+      "prediction": 1
+    }
+  ],
+  "elapsed_seconds_including_metrics": 20.55389740000828
+}

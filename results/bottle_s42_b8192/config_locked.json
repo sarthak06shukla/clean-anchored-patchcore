@@ -1,0 +1,64 @@
+{
+  "categories": [
+    "bottle",
+    "hazelnut",
+    "tile"
+  ],
+  "seeds": [
+    23,
+    42,
+    61
+  ],
+  "budgets": [
+    4096,
+    1024,
+    8192
+  ],
+  "methods": [
+    "clean",
+    "pooled",
+    "uniform",
+    "adaptive",
+    "no_guard",
+    "no_anchor"
+  ],
+  "image_size": 256,
+  "descriptor_dim": 1024,
+  "candidate_cap_per_group": 20000,
+  "anchor_fractions": [
+    0.5,
+    0.75
+  ],
+  "clean_tolerance": 1.1,
+  "backbone": "wide_resnet50_2",
+  "weights": "IMAGENET1K_V1",
+  "fit_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "fit_views": [
+    "clean",
+    "brightness_0.85",
+    "brightness_1.15",
+    "jpeg_85"
+  ],
+  "test_views": [
+    "clean",
+    "brightness_0.75",
+    "brightness_0.60",
+    "brightness_0.45",
+    "jpeg_70",
+    "jpeg_50",
+    "jpeg_30",
+    "blur_0.5",
+    "blur_1.0",
+    "blur_1.5"
+  ],
+  "score": "PatchCore Eq. 7 reweighting with 9 support neighbours including nearest bank vector",
+  "map_smoothing_sigma": 4.0,
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 20261112,
+  "dataset_revision": "c75b39616f84db43677bcc8228caaafaf5096d7f",
+  "notes": "Final protocol fixed before new final evaluations. Bottle seed-23 B=1024 unreweighted pilot previously observed. Seeds were not specified in PPR; 23/42/61 fixed here. No-anchor retains the same clean safeguard; no-guard retains anchors and validation selection. All budgets include both ablations.",
+  "category": "bottle",
+  "seed": 42,
+  "budget": 8192
+}

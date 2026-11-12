@@ -1,0 +1,171 @@
+{
+  "fitting_completed_utc": "2026-11-12T17:56:37.383645+00:00",
+  "reference_clean_coverage": 1.8972138166427612,
+  "unique_candidates": [
+    20000,
+    20000,
+    20000
+  ],
+  "choices": {
+    "uniform": {
+      "rho": 0.5,
+      "allocation": [
+        512,
+        256,
+        256
+      ],
+      "coverage": [
+        1.9399828910827637,
+        1.966105341911316,
+        2.0039315223693848
+      ],
+      "fallback": false,
+      "options": [
+        {
+          "rho": 0.5,
+          "allocation": [
+            512,
+            256,
+            256
+          ],
+          "coverage": [
+            1.9399828910827637,
+            1.966105341911316,
+            2.0039315223693848
+          ]
+        },
+        {
+          "rho": 0.75,
+          "allocation": [
+            768,
+            128,
+            128
+          ],
+          "coverage": [
+            1.923421859741211,
+            1.9521923065185547,
+            2.0123870372772217
+          ]
+        }
+      ]
+    },
+    "adaptive": {
+      "rho": 0.75,
+      "allocation": [
+        768,
+        0,
+        256
+      ],
+      "coverage": [
+        1.924470067024231,
+        1.9542667865753174,
+        1.9940533638000488
+      ],
+      "fallback": false,
+      "options": [
+        {
+          "rho": 0.5,
+          "allocation": [
+            512,
+            156,
+            356
+          ],
+          "coverage": [
+            1.9464682340621948,
+            1.9739937782287598,
+            1.9960907697677612
+          ]
+        },
+        {
+          "rho": 0.75,
+          "allocation": [
+            768,
+            0,
+            256
+          ],
+          "coverage": [
+            1.924470067024231,
+            1.9542667865753174,
+            1.9940533638000488
+          ]
+        }
+      ]
+    },
+    "no_guard": {
+      "rho": 0.75,
+      "allocation": [
+        768,
+        0,
+        256
+      ],
+      "coverage": [
+        1.924470067024231,
+        1.9542667865753174,
+        1.9940533638000488
+      ],
+      "fallback": false
+    },
+    "no_anchor": {
+      "allocation": [
+        110,
+        414,
+        500
+      ],
+      "candidate_allocation": [
+        110,
+        414,
+        500
+      ],
+      "coverage": [
+        1.959216594696045,
+        1.9836496114730835,
+        1.9956672191619873
+      ],
+      "fallback": false
+    }
+  },
+  "thresholds": {
+    "clean": {
+      "value": 1.6211824417114258,
+      "rank": 45,
+      "n": 46
+    },
+    "pooled": {
+      "value": 1.6131991147994995,
+      "rank": 45,
+      "n": 46
+    },
+    "uniform": {
+      "value": 1.6085240840911865,
+      "rank": 45,
+      "n": 46
+    },
+    "adaptive": {
+      "value": 1.6120141744613647,
+      "rank": 45,
+      "n": 46
+    },
+    "no_guard": {
+      "value": 1.6120141744613647,
+      "rank": 45,
+      "n": 46
+    },
+    "no_anchor": {
+      "value": 1.6400929689407349,
+      "rank": 45,
+      "n": 46
+    }
+  },
+  "bank_construction_seconds": {
+    "clean": 4.981636900018202,
+    "pooled": 14.26980320000439,
+    "uniform": 7.999391799996374,
+    "adaptive": 8.071270499989623,
+    "no_guard": 8.071270499989623,
+    "no_anchor": 15.15072110001347
+  },
+  "feature_preparation_seconds": 1.8255658999842126,
+  "construction_timing_note": "Uniform/adaptive include two rho builds and validation; clean anchor prefix is reused. Feature preparation excluded.",
+  "descriptor_bank_bytes": 4194304,
+  "peak_cuda_allocated_bytes_through_fitting": 1886321664
+}

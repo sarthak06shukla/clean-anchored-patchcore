@@ -1,0 +1,4045 @@
+{
+  "metrics": [
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "image_auroc": 0.996031746031746,
+      "pixel_auroc": 0.9649687265607599,
+      "pixel_ap": 0.7249076466452199,
+      "fpr": 1.0,
+      "recall": 1.0
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9885867945196962,
+      "pixel_ap": 0.7989098292351171,
+      "fpr": 0.05,
+      "recall": 1.0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9888149179091397,
+      "pixel_ap": 0.8007635005485573,
+      "fpr": 0.0,
+      "recall": 1.0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9887500247908536,
+      "pixel_ap": 0.7988422303072202,
+      "fpr": 0.0,
+      "recall": 0.9841269841269841
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9887037182978986,
+      "pixel_ap": 0.7986847332432068,
+      "fpr": 0.05,
+      "recall": 1.0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "image_auroc": 0.996031746031746,
+      "pixel_auroc": 0.9649687265607599,
+      "pixel_ap": 0.7249076466452199,
+      "fpr": 1.0,
+      "recall": 1.0
+    }
+  ],
+  "scores": [
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "score": 2.503000259399414,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "score": 2.511497974395752,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "score": 2.5046606063842773,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "score": 2.5009658336639404,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "score": 2.501485824584961,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/000.png",
+      "label": 1,
+      "score": 2.503000259399414,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/001.png",
+      "label": 1,
+      "score": 2.542454481124878,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/001.png",
+      "label": 1,
+      "score": 2.53364634513855,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/001.png",
+      "label": 1,
+      "score": 2.51845645904541,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/001.png",
+      "label": 1,
+      "score": 2.537369966506958,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/001.png",
+      "label": 1,
+      "score": 2.531240940093994,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/001.png",
+      "label": 1,
+      "score": 2.542454481124878,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/002.png",
+      "label": 1,
+      "score": 2.4602527618408203,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/002.png",
+      "label": 1,
+      "score": 2.5122125148773193,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/002.png",
+      "label": 1,
+      "score": 2.459345817565918,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/002.png",
+      "label": 1,
+      "score": 2.459345817565918,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/002.png",
+      "label": 1,
+      "score": 2.4506051540374756,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/002.png",
+      "label": 1,
+      "score": 2.4602527618408203,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/003.png",
+      "label": 1,
+      "score": 2.5911943912506104,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/003.png",
+      "label": 1,
+      "score": 2.548097848892212,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/003.png",
+      "label": 1,
+      "score": 2.532848596572876,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/003.png",
+      "label": 1,
+      "score": 2.590651273727417,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/003.png",
+      "label": 1,
+      "score": 2.583338499069214,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/003.png",
+      "label": 1,
+      "score": 2.5911943912506104,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/004.png",
+      "label": 1,
+      "score": 2.7251882553100586,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/004.png",
+      "label": 1,
+      "score": 2.669633626937866,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/004.png",
+      "label": 1,
+      "score": 2.6724672317504883,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/004.png",
+      "label": 1,
+      "score": 2.6589717864990234,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/004.png",
+      "label": 1,
+      "score": 2.667717933654785,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/004.png",
+      "label": 1,
+      "score": 2.7251882553100586,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/005.png",
+      "label": 1,
+      "score": 2.455944061279297,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/005.png",
+      "label": 1,
+      "score": 2.420968532562256,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/005.png",
+      "label": 1,
+      "score": 2.4489083290100098,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/005.png",
+      "label": 1,
+      "score": 2.413524627685547,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/005.png",
+      "label": 1,
+      "score": 2.421358346939087,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/005.png",
+      "label": 1,
+      "score": 2.455944061279297,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/006.png",
+      "label": 1,
+      "score": 2.6392271518707275,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/006.png",
+      "label": 1,
+      "score": 2.604497194290161,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/006.png",
+      "label": 1,
+      "score": 2.622882604598999,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/006.png",
+      "label": 1,
+      "score": 2.6126952171325684,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/006.png",
+      "label": 1,
+      "score": 2.5861432552337646,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/006.png",
+      "label": 1,
+      "score": 2.6392271518707275,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/007.png",
+      "label": 1,
+      "score": 2.417868137359619,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/007.png",
+      "label": 1,
+      "score": 2.3149259090423584,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/007.png",
+      "label": 1,
+      "score": 2.362466335296631,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/007.png",
+      "label": 1,
+      "score": 2.4205052852630615,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/007.png",
+      "label": 1,
+      "score": 2.3203113079071045,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/007.png",
+      "label": 1,
+      "score": 2.417868137359619,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/008.png",
+      "label": 1,
+      "score": 2.5428197383880615,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/008.png",
+      "label": 1,
+      "score": 2.5269241333007812,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/008.png",
+      "label": 1,
+      "score": 2.5300800800323486,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/008.png",
+      "label": 1,
+      "score": 2.5349347591400146,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/008.png",
+      "label": 1,
+      "score": 2.514331579208374,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/008.png",
+      "label": 1,
+      "score": 2.5428197383880615,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/009.png",
+      "label": 1,
+      "score": 2.442702054977417,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/009.png",
+      "label": 1,
+      "score": 2.4260754585266113,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/009.png",
+      "label": 1,
+      "score": 2.4341554641723633,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/009.png",
+      "label": 1,
+      "score": 2.428802013397217,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/009.png",
+      "label": 1,
+      "score": 2.4253625869750977,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/009.png",
+      "label": 1,
+      "score": 2.442702054977417,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/010.png",
+      "label": 1,
+      "score": 2.474292755126953,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/010.png",
+      "label": 1,
+      "score": 2.4609508514404297,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/010.png",
+      "label": 1,
+      "score": 2.4467668533325195,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/010.png",
+      "label": 1,
+      "score": 2.4551992416381836,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/010.png",
+      "label": 1,
+      "score": 2.450345754623413,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/010.png",
+      "label": 1,
+      "score": 2.474292755126953,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/011.png",
+      "label": 1,
+      "score": 2.1696674823760986,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/011.png",
+      "label": 1,
+      "score": 2.1573166847229004,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/011.png",
+      "label": 1,
+      "score": 2.177622079849243,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/011.png",
+      "label": 1,
+      "score": 2.177622079849243,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/011.png",
+      "label": 1,
+      "score": 2.1834511756896973,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/011.png",
+      "label": 1,
+      "score": 2.1696674823760986,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/012.png",
+      "label": 1,
+      "score": 2.6428825855255127,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/012.png",
+      "label": 1,
+      "score": 2.63301420211792,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/012.png",
+      "label": 1,
+      "score": 2.6206445693969727,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/012.png",
+      "label": 1,
+      "score": 2.6261446475982666,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/012.png",
+      "label": 1,
+      "score": 2.627068281173706,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/012.png",
+      "label": 1,
+      "score": 2.6428825855255127,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/013.png",
+      "label": 1,
+      "score": 2.3247523307800293,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/013.png",
+      "label": 1,
+      "score": 2.34112548828125,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/013.png",
+      "label": 1,
+      "score": 2.310591697692871,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/013.png",
+      "label": 1,
+      "score": 2.3054885864257812,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/013.png",
+      "label": 1,
+      "score": 2.3054885864257812,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/013.png",
+      "label": 1,
+      "score": 2.3247523307800293,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/014.png",
+      "label": 1,
+      "score": 2.548779249191284,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/014.png",
+      "label": 1,
+      "score": 2.475554943084717,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/014.png",
+      "label": 1,
+      "score": 2.463718891143799,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/014.png",
+      "label": 1,
+      "score": 2.5162017345428467,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/014.png",
+      "label": 1,
+      "score": 2.4605860710144043,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/014.png",
+      "label": 1,
+      "score": 2.548779249191284,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/015.png",
+      "label": 1,
+      "score": 2.580566644668579,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/015.png",
+      "label": 1,
+      "score": 2.5571436882019043,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/015.png",
+      "label": 1,
+      "score": 2.571845293045044,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/015.png",
+      "label": 1,
+      "score": 2.549832344055176,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/015.png",
+      "label": 1,
+      "score": 2.5503041744232178,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/015.png",
+      "label": 1,
+      "score": 2.580566644668579,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/016.png",
+      "label": 1,
+      "score": 2.3717942237854004,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/016.png",
+      "label": 1,
+      "score": 2.3483097553253174,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/016.png",
+      "label": 1,
+      "score": 2.3394365310668945,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/016.png",
+      "label": 1,
+      "score": 2.3394365310668945,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/016.png",
+      "label": 1,
+      "score": 2.347426414489746,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/016.png",
+      "label": 1,
+      "score": 2.3717942237854004,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/017.png",
+      "label": 1,
+      "score": 2.742029905319214,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/017.png",
+      "label": 1,
+      "score": 2.7229723930358887,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/017.png",
+      "label": 1,
+      "score": 2.71970796585083,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/017.png",
+      "label": 1,
+      "score": 2.7156870365142822,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/017.png",
+      "label": 1,
+      "score": 2.7160351276397705,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/017.png",
+      "label": 1,
+      "score": 2.742029905319214,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/018.png",
+      "label": 1,
+      "score": 2.558380603790283,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/018.png",
+      "label": 1,
+      "score": 2.5653796195983887,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/018.png",
+      "label": 1,
+      "score": 2.554255962371826,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/018.png",
+      "label": 1,
+      "score": 2.554255962371826,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/018.png",
+      "label": 1,
+      "score": 2.5636584758758545,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/018.png",
+      "label": 1,
+      "score": 2.558380603790283,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/019.png",
+      "label": 1,
+      "score": 2.451385974884033,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/019.png",
+      "label": 1,
+      "score": 2.351705551147461,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/019.png",
+      "label": 1,
+      "score": 2.444488763809204,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/019.png",
+      "label": 1,
+      "score": 2.348815441131592,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/019.png",
+      "label": 1,
+      "score": 2.379108428955078,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_large/019.png",
+      "label": 1,
+      "score": 2.451385974884033,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/000.png",
+      "label": 1,
+      "score": 2.202268600463867,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/000.png",
+      "label": 1,
+      "score": 2.23813796043396,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/000.png",
+      "label": 1,
+      "score": 2.1970698833465576,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/000.png",
+      "label": 1,
+      "score": 2.1970698833465576,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/000.png",
+      "label": 1,
+      "score": 2.2125442028045654,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/000.png",
+      "label": 1,
+      "score": 2.202268600463867,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/001.png",
+      "label": 1,
+      "score": 2.514920711517334,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/001.png",
+      "label": 1,
+      "score": 2.4755454063415527,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/001.png",
+      "label": 1,
+      "score": 2.471323251724243,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/001.png",
+      "label": 1,
+      "score": 2.463468551635742,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/001.png",
+      "label": 1,
+      "score": 2.4633188247680664,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/001.png",
+      "label": 1,
+      "score": 2.514920711517334,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/002.png",
+      "label": 1,
+      "score": 2.5435428619384766,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/002.png",
+      "label": 1,
+      "score": 2.4931559562683105,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/002.png",
+      "label": 1,
+      "score": 2.4835972785949707,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/002.png",
+      "label": 1,
+      "score": 2.486713409423828,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/002.png",
+      "label": 1,
+      "score": 2.484995126724243,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/002.png",
+      "label": 1,
+      "score": 2.5435428619384766,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/003.png",
+      "label": 1,
+      "score": 2.5779545307159424,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/003.png",
+      "label": 1,
+      "score": 2.553687810897827,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/003.png",
+      "label": 1,
+      "score": 2.549514055252075,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/003.png",
+      "label": 1,
+      "score": 2.5429952144622803,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/003.png",
+      "label": 1,
+      "score": 2.5447328090667725,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/003.png",
+      "label": 1,
+      "score": 2.5779545307159424,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/004.png",
+      "label": 1,
+      "score": 2.759974479675293,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/004.png",
+      "label": 1,
+      "score": 2.761075973510742,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/004.png",
+      "label": 1,
+      "score": 2.753308057785034,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/004.png",
+      "label": 1,
+      "score": 2.758671760559082,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/004.png",
+      "label": 1,
+      "score": 2.756331443786621,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/004.png",
+      "label": 1,
+      "score": 2.759974479675293,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/005.png",
+      "label": 1,
+      "score": 2.222480058670044,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/005.png",
+      "label": 1,
+      "score": 2.249769926071167,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/005.png",
+      "label": 1,
+      "score": 2.2255914211273193,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/005.png",
+      "label": 1,
+      "score": 2.2219135761260986,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/005.png",
+      "label": 1,
+      "score": 2.224966526031494,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/005.png",
+      "label": 1,
+      "score": 2.222480058670044,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/006.png",
+      "label": 1,
+      "score": 2.4807450771331787,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/006.png",
+      "label": 1,
+      "score": 2.4751133918762207,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/006.png",
+      "label": 1,
+      "score": 2.4718377590179443,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/006.png",
+      "label": 1,
+      "score": 2.4731178283691406,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/006.png",
+      "label": 1,
+      "score": 2.4749786853790283,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/006.png",
+      "label": 1,
+      "score": 2.4807450771331787,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/007.png",
+      "label": 1,
+      "score": 2.3027689456939697,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/007.png",
+      "label": 1,
+      "score": 2.182417154312134,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/007.png",
+      "label": 1,
+      "score": 2.1835570335388184,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/007.png",
+      "label": 1,
+      "score": 2.19549822807312,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/007.png",
+      "label": 1,
+      "score": 2.1864256858825684,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/007.png",
+      "label": 1,
+      "score": 2.3027689456939697,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/008.png",
+      "label": 1,
+      "score": 2.265777587890625,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/008.png",
+      "label": 1,
+      "score": 2.2375643253326416,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/008.png",
+      "label": 1,
+      "score": 2.267664909362793,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/008.png",
+      "label": 1,
+      "score": 2.2690348625183105,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/008.png",
+      "label": 1,
+      "score": 2.2643492221832275,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/008.png",
+      "label": 1,
+      "score": 2.265777587890625,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/009.png",
+      "label": 1,
+      "score": 2.410609483718872,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/009.png",
+      "label": 1,
+      "score": 2.4160003662109375,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/009.png",
+      "label": 1,
+      "score": 2.419809341430664,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/009.png",
+      "label": 1,
+      "score": 2.4264745712280273,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/009.png",
+      "label": 1,
+      "score": 2.42396879196167,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/009.png",
+      "label": 1,
+      "score": 2.410609483718872,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/010.png",
+      "label": 1,
+      "score": 2.5005850791931152,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/010.png",
+      "label": 1,
+      "score": 2.4776692390441895,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/010.png",
+      "label": 1,
+      "score": 2.4993908405303955,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/010.png",
+      "label": 1,
+      "score": 2.488304615020752,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/010.png",
+      "label": 1,
+      "score": 2.490147829055786,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/010.png",
+      "label": 1,
+      "score": 2.5005850791931152,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/011.png",
+      "label": 1,
+      "score": 2.3563990592956543,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/011.png",
+      "label": 1,
+      "score": 2.3808720111846924,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/011.png",
+      "label": 1,
+      "score": 2.350839853286743,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/011.png",
+      "label": 1,
+      "score": 2.350839853286743,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/011.png",
+      "label": 1,
+      "score": 2.363334894180298,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/011.png",
+      "label": 1,
+      "score": 2.3563990592956543,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/012.png",
+      "label": 1,
+      "score": 2.533238410949707,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/012.png",
+      "label": 1,
+      "score": 2.5064070224761963,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/012.png",
+      "label": 1,
+      "score": 2.514538049697876,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/012.png",
+      "label": 1,
+      "score": 2.498288869857788,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/012.png",
+      "label": 1,
+      "score": 2.498142957687378,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/012.png",
+      "label": 1,
+      "score": 2.533238410949707,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/013.png",
+      "label": 1,
+      "score": 2.175983428955078,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/013.png",
+      "label": 1,
+      "score": 2.1814756393432617,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/013.png",
+      "label": 1,
+      "score": 2.1914594173431396,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/013.png",
+      "label": 1,
+      "score": 2.1877799034118652,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/013.png",
+      "label": 1,
+      "score": 2.1739163398742676,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/013.png",
+      "label": 1,
+      "score": 2.175983428955078,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/014.png",
+      "label": 1,
+      "score": 2.3105642795562744,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/014.png",
+      "label": 1,
+      "score": 2.28440260887146,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/014.png",
+      "label": 1,
+      "score": 2.2837796211242676,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/014.png",
+      "label": 1,
+      "score": 2.3030951023101807,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/014.png",
+      "label": 1,
+      "score": 2.2803428173065186,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/014.png",
+      "label": 1,
+      "score": 2.3105642795562744,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/015.png",
+      "label": 1,
+      "score": 2.150738477706909,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/015.png",
+      "label": 1,
+      "score": 2.15862774848938,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/015.png",
+      "label": 1,
+      "score": 2.157803535461426,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/015.png",
+      "label": 1,
+      "score": 2.157439708709717,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/015.png",
+      "label": 1,
+      "score": 2.1572346687316895,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/015.png",
+      "label": 1,
+      "score": 2.150738477706909,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/016.png",
+      "label": 1,
+      "score": 2.3938796520233154,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/016.png",
+      "label": 1,
+      "score": 2.354785680770874,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/016.png",
+      "label": 1,
+      "score": 2.370715379714966,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/016.png",
+      "label": 1,
+      "score": 2.3634531497955322,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/016.png",
+      "label": 1,
+      "score": 2.3523764610290527,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/016.png",
+      "label": 1,
+      "score": 2.3938796520233154,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/017.png",
+      "label": 1,
+      "score": 2.7835276126861572,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/017.png",
+      "label": 1,
+      "score": 2.680791139602661,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/017.png",
+      "label": 1,
+      "score": 2.6938345432281494,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/017.png",
+      "label": 1,
+      "score": 2.7008721828460693,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/017.png",
+      "label": 1,
+      "score": 2.7020552158355713,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/017.png",
+      "label": 1,
+      "score": 2.7835276126861572,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/018.png",
+      "label": 1,
+      "score": 2.692438840866089,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/018.png",
+      "label": 1,
+      "score": 2.669569730758667,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/018.png",
+      "label": 1,
+      "score": 2.6649603843688965,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/018.png",
+      "label": 1,
+      "score": 2.6653153896331787,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/018.png",
+      "label": 1,
+      "score": 2.6664810180664062,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/018.png",
+      "label": 1,
+      "score": 2.692438840866089,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/019.png",
+      "label": 1,
+      "score": 2.641598701477051,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/019.png",
+      "label": 1,
+      "score": 2.5997653007507324,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/019.png",
+      "label": 1,
+      "score": 2.5867702960968018,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/019.png",
+      "label": 1,
+      "score": 2.589125156402588,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/019.png",
+      "label": 1,
+      "score": 2.593543291091919,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/019.png",
+      "label": 1,
+      "score": 2.641598701477051,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/020.png",
+      "label": 1,
+      "score": 2.642639398574829,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/020.png",
+      "label": 1,
+      "score": 2.544578790664673,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/020.png",
+      "label": 1,
+      "score": 2.5507872104644775,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/020.png",
+      "label": 1,
+      "score": 2.55609130859375,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/020.png",
+      "label": 1,
+      "score": 2.5525782108306885,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/020.png",
+      "label": 1,
+      "score": 2.642639398574829,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/021.png",
+      "label": 1,
+      "score": 2.424605131149292,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/021.png",
+      "label": 1,
+      "score": 2.410320997238159,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/021.png",
+      "label": 1,
+      "score": 2.409273386001587,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/021.png",
+      "label": 1,
+      "score": 2.4106197357177734,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/021.png",
+      "label": 1,
+      "score": 2.4074316024780273,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/broken_small/021.png",
+      "label": 1,
+      "score": 2.424605131149292,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/000.png",
+      "label": 1,
+      "score": 2.255408525466919,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/000.png",
+      "label": 1,
+      "score": 2.269282579421997,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/000.png",
+      "label": 1,
+      "score": 2.2549684047698975,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/000.png",
+      "label": 1,
+      "score": 2.2549684047698975,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/000.png",
+      "label": 1,
+      "score": 2.25734543800354,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/000.png",
+      "label": 1,
+      "score": 2.255408525466919,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/001.png",
+      "label": 1,
+      "score": 1.8968350887298584,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/001.png",
+      "label": 1,
+      "score": 1.8821232318878174,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/001.png",
+      "label": 1,
+      "score": 1.9001314640045166,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/001.png",
+      "label": 1,
+      "score": 1.8965859413146973,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/001.png",
+      "label": 1,
+      "score": 1.8977352380752563,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/001.png",
+      "label": 1,
+      "score": 1.8968350887298584,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/002.png",
+      "label": 1,
+      "score": 2.07645320892334,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/002.png",
+      "label": 1,
+      "score": 2.0951297283172607,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/002.png",
+      "label": 1,
+      "score": 2.0646073818206787,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/002.png",
+      "label": 1,
+      "score": 2.063232421875,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/002.png",
+      "label": 1,
+      "score": 2.059451103210449,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/002.png",
+      "label": 1,
+      "score": 2.07645320892334,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/003.png",
+      "label": 1,
+      "score": 1.7701060771942139,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/003.png",
+      "label": 1,
+      "score": 1.7036337852478027,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/003.png",
+      "label": 1,
+      "score": 1.7026418447494507,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/003.png",
+      "label": 1,
+      "score": 1.7659422159194946,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/003.png",
+      "label": 1,
+      "score": 1.7064834833145142,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/003.png",
+      "label": 1,
+      "score": 1.7701060771942139,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/004.png",
+      "label": 1,
+      "score": 1.8332037925720215,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/004.png",
+      "label": 1,
+      "score": 1.825465440750122,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/004.png",
+      "label": 1,
+      "score": 1.8281598091125488,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/004.png",
+      "label": 1,
+      "score": 1.8256065845489502,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/004.png",
+      "label": 1,
+      "score": 1.8263009786605835,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/004.png",
+      "label": 1,
+      "score": 1.8332037925720215,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/005.png",
+      "label": 1,
+      "score": 2.4160921573638916,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/005.png",
+      "label": 1,
+      "score": 2.4033210277557373,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/005.png",
+      "label": 1,
+      "score": 2.4072518348693848,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/005.png",
+      "label": 1,
+      "score": 2.422163248062134,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/005.png",
+      "label": 1,
+      "score": 2.4103174209594727,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/005.png",
+      "label": 1,
+      "score": 2.4160921573638916,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/006.png",
+      "label": 1,
+      "score": 2.0735983848571777,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/006.png",
+      "label": 1,
+      "score": 2.0756442546844482,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/006.png",
+      "label": 1,
+      "score": 2.0748496055603027,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/006.png",
+      "label": 1,
+      "score": 2.0763514041900635,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/006.png",
+      "label": 1,
+      "score": 2.0759055614471436,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/006.png",
+      "label": 1,
+      "score": 2.0735983848571777,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/007.png",
+      "label": 1,
+      "score": 2.9707021713256836,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/007.png",
+      "label": 1,
+      "score": 2.993319034576416,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/007.png",
+      "label": 1,
+      "score": 2.9650542736053467,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/007.png",
+      "label": 1,
+      "score": 2.9635772705078125,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/007.png",
+      "label": 1,
+      "score": 2.9622082710266113,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/007.png",
+      "label": 1,
+      "score": 2.9707021713256836,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/008.png",
+      "label": 1,
+      "score": 2.259143352508545,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/008.png",
+      "label": 1,
+      "score": 2.224522590637207,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/008.png",
+      "label": 1,
+      "score": 2.2208352088928223,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/008.png",
+      "label": 1,
+      "score": 2.2208352088928223,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/008.png",
+      "label": 1,
+      "score": 2.2241194248199463,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/008.png",
+      "label": 1,
+      "score": 2.259143352508545,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/009.png",
+      "label": 1,
+      "score": 2.408609390258789,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/009.png",
+      "label": 1,
+      "score": 2.3712964057922363,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/009.png",
+      "label": 1,
+      "score": 2.3691978454589844,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/009.png",
+      "label": 1,
+      "score": 2.3691978454589844,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/009.png",
+      "label": 1,
+      "score": 2.372842788696289,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/009.png",
+      "label": 1,
+      "score": 2.408609390258789,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/010.png",
+      "label": 1,
+      "score": 2.304919958114624,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/010.png",
+      "label": 1,
+      "score": 2.2939610481262207,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/010.png",
+      "label": 1,
+      "score": 2.300962448120117,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/010.png",
+      "label": 1,
+      "score": 2.300962448120117,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/010.png",
+      "label": 1,
+      "score": 2.3049962520599365,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/010.png",
+      "label": 1,
+      "score": 2.304919958114624,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/011.png",
+      "label": 1,
+      "score": 2.025451421737671,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/011.png",
+      "label": 1,
+      "score": 1.9951382875442505,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/011.png",
+      "label": 1,
+      "score": 1.9714763164520264,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/011.png",
+      "label": 1,
+      "score": 1.9778838157653809,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/011.png",
+      "label": 1,
+      "score": 1.982703685760498,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/011.png",
+      "label": 1,
+      "score": 2.025451421737671,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/012.png",
+      "label": 1,
+      "score": 1.746852993965149,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/012.png",
+      "label": 1,
+      "score": 1.7130447626113892,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/012.png",
+      "label": 1,
+      "score": 1.691023349761963,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/012.png",
+      "label": 1,
+      "score": 1.6922953128814697,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/012.png",
+      "label": 1,
+      "score": 1.7012696266174316,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/012.png",
+      "label": 1,
+      "score": 1.746852993965149,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/013.png",
+      "label": 1,
+      "score": 2.7062225341796875,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/013.png",
+      "label": 1,
+      "score": 2.76537823677063,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/013.png",
+      "label": 1,
+      "score": 2.7011969089508057,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/013.png",
+      "label": 1,
+      "score": 2.7180280685424805,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/013.png",
+      "label": 1,
+      "score": 2.68430495262146,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/013.png",
+      "label": 1,
+      "score": 2.7062225341796875,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/014.png",
+      "label": 1,
+      "score": 2.886413335800171,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/014.png",
+      "label": 1,
+      "score": 2.72599458694458,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/014.png",
+      "label": 1,
+      "score": 2.719130039215088,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/014.png",
+      "label": 1,
+      "score": 2.7246439456939697,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/014.png",
+      "label": 1,
+      "score": 2.7244718074798584,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/014.png",
+      "label": 1,
+      "score": 2.886413335800171,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/015.png",
+      "label": 1,
+      "score": 2.337209939956665,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/015.png",
+      "label": 1,
+      "score": 2.3770060539245605,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/015.png",
+      "label": 1,
+      "score": 2.3441038131713867,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/015.png",
+      "label": 1,
+      "score": 2.343526601791382,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/015.png",
+      "label": 1,
+      "score": 2.3823792934417725,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/015.png",
+      "label": 1,
+      "score": 2.337209939956665,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/016.png",
+      "label": 1,
+      "score": 2.083005905151367,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/016.png",
+      "label": 1,
+      "score": 2.0917036533355713,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/016.png",
+      "label": 1,
+      "score": 2.0744643211364746,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/016.png",
+      "label": 1,
+      "score": 2.074781894683838,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/016.png",
+      "label": 1,
+      "score": 2.09257435798645,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/016.png",
+      "label": 1,
+      "score": 2.083005905151367,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/017.png",
+      "label": 1,
+      "score": 2.7390177249908447,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/017.png",
+      "label": 1,
+      "score": 2.7496185302734375,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/017.png",
+      "label": 1,
+      "score": 2.730231761932373,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/017.png",
+      "label": 1,
+      "score": 2.742384433746338,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/017.png",
+      "label": 1,
+      "score": 2.7486860752105713,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/017.png",
+      "label": 1,
+      "score": 2.7390177249908447,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/018.png",
+      "label": 1,
+      "score": 2.7314534187316895,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/018.png",
+      "label": 1,
+      "score": 2.7360243797302246,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/018.png",
+      "label": 1,
+      "score": 2.7310564517974854,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/018.png",
+      "label": 1,
+      "score": 2.739776134490967,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/018.png",
+      "label": 1,
+      "score": 2.735045909881592,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/018.png",
+      "label": 1,
+      "score": 2.7314534187316895,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/019.png",
+      "label": 1,
+      "score": 1.8106586933135986,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/019.png",
+      "label": 1,
+      "score": 1.8355685472488403,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/019.png",
+      "label": 1,
+      "score": 1.810391902923584,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/019.png",
+      "label": 1,
+      "score": 1.810391902923584,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/019.png",
+      "label": 1,
+      "score": 1.71746826171875,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/019.png",
+      "label": 1,
+      "score": 1.8106586933135986,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/020.png",
+      "label": 1,
+      "score": 1.9725923538208008,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/020.png",
+      "label": 1,
+      "score": 1.9645788669586182,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/020.png",
+      "label": 1,
+      "score": 1.9679089784622192,
+      "prediction": 1
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/020.png",
+      "label": 1,
+      "score": 1.9679089784622192,
+      "prediction": 1
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/020.png",
+      "label": 1,
+      "score": 1.9754430055618286,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/contamination/020.png",
+      "label": 1,
+      "score": 1.9725923538208008,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/000.png",
+      "label": 0,
+      "score": 1.7552802562713623,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/000.png",
+      "label": 0,
+      "score": 1.1815558671951294,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/000.png",
+      "label": 0,
+      "score": 1.1773563623428345,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/000.png",
+      "label": 0,
+      "score": 1.2139774560928345,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/000.png",
+      "label": 0,
+      "score": 1.1840507984161377,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/000.png",
+      "label": 0,
+      "score": 1.7552802562713623,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/001.png",
+      "label": 0,
+      "score": 1.7401241064071655,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/001.png",
+      "label": 0,
+      "score": 1.5143861770629883,
+      "prediction": 1
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/001.png",
+      "label": 0,
+      "score": 1.453963041305542,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/001.png",
+      "label": 0,
+      "score": 1.4579280614852905,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/001.png",
+      "label": 0,
+      "score": 1.537361741065979,
+      "prediction": 1
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/001.png",
+      "label": 0,
+      "score": 1.7401241064071655,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/002.png",
+      "label": 0,
+      "score": 1.7418456077575684,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/002.png",
+      "label": 0,
+      "score": 1.3192548751831055,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/002.png",
+      "label": 0,
+      "score": 1.282788872718811,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/002.png",
+      "label": 0,
+      "score": 1.282788872718811,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/002.png",
+      "label": 0,
+      "score": 1.2894870042800903,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/002.png",
+      "label": 0,
+      "score": 1.7418456077575684,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/003.png",
+      "label": 0,
+      "score": 1.74732506275177,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/003.png",
+      "label": 0,
+      "score": 1.1981785297393799,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/003.png",
+      "label": 0,
+      "score": 1.1286330223083496,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/003.png",
+      "label": 0,
+      "score": 1.2291263341903687,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/003.png",
+      "label": 0,
+      "score": 1.3456436395645142,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/003.png",
+      "label": 0,
+      "score": 1.74732506275177,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/004.png",
+      "label": 0,
+      "score": 1.7465249300003052,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/004.png",
+      "label": 0,
+      "score": 1.1355617046356201,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/004.png",
+      "label": 0,
+      "score": 1.1070317029953003,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/004.png",
+      "label": 0,
+      "score": 1.2300333976745605,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/004.png",
+      "label": 0,
+      "score": 1.0998561382293701,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/004.png",
+      "label": 0,
+      "score": 1.7465249300003052,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/005.png",
+      "label": 0,
+      "score": 1.7370693683624268,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/005.png",
+      "label": 0,
+      "score": 1.22639000415802,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/005.png",
+      "label": 0,
+      "score": 1.1680563688278198,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/005.png",
+      "label": 0,
+      "score": 1.2138415575027466,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/005.png",
+      "label": 0,
+      "score": 1.2424476146697998,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/005.png",
+      "label": 0,
+      "score": 1.7370693683624268,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/006.png",
+      "label": 0,
+      "score": 1.738216757774353,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/006.png",
+      "label": 0,
+      "score": 1.352571725845337,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/006.png",
+      "label": 0,
+      "score": 1.2882354259490967,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/006.png",
+      "label": 0,
+      "score": 1.2877531051635742,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/006.png",
+      "label": 0,
+      "score": 1.2911779880523682,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/006.png",
+      "label": 0,
+      "score": 1.738216757774353,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/007.png",
+      "label": 0,
+      "score": 1.7411540746688843,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/007.png",
+      "label": 0,
+      "score": 1.2032675743103027,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/007.png",
+      "label": 0,
+      "score": 1.2189289331436157,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/007.png",
+      "label": 0,
+      "score": 1.2310768365859985,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/007.png",
+      "label": 0,
+      "score": 1.2181285619735718,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/007.png",
+      "label": 0,
+      "score": 1.7411540746688843,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/008.png",
+      "label": 0,
+      "score": 1.74675714969635,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/008.png",
+      "label": 0,
+      "score": 1.2246931791305542,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/008.png",
+      "label": 0,
+      "score": 1.1939396858215332,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/008.png",
+      "label": 0,
+      "score": 1.2402032613754272,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/008.png",
+      "label": 0,
+      "score": 1.1995316743850708,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/008.png",
+      "label": 0,
+      "score": 1.74675714969635,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/009.png",
+      "label": 0,
+      "score": 1.7302112579345703,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/009.png",
+      "label": 0,
+      "score": 1.2660388946533203,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/009.png",
+      "label": 0,
+      "score": 1.273755669593811,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/009.png",
+      "label": 0,
+      "score": 1.273755669593811,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/009.png",
+      "label": 0,
+      "score": 1.3119118213653564,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/009.png",
+      "label": 0,
+      "score": 1.7302112579345703,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/010.png",
+      "label": 0,
+      "score": 1.7089382410049438,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/010.png",
+      "label": 0,
+      "score": 1.2831577062606812,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/010.png",
+      "label": 0,
+      "score": 1.257501482963562,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/010.png",
+      "label": 0,
+      "score": 1.2740806341171265,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/010.png",
+      "label": 0,
+      "score": 1.2539609670639038,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/010.png",
+      "label": 0,
+      "score": 1.7089382410049438,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/011.png",
+      "label": 0,
+      "score": 1.7350668907165527,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/011.png",
+      "label": 0,
+      "score": 1.1435225009918213,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/011.png",
+      "label": 0,
+      "score": 1.1866154670715332,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/011.png",
+      "label": 0,
+      "score": 1.23892080783844,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/011.png",
+      "label": 0,
+      "score": 1.1482564210891724,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/011.png",
+      "label": 0,
+      "score": 1.7350668907165527,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/012.png",
+      "label": 0,
+      "score": 1.739295482635498,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/012.png",
+      "label": 0,
+      "score": 1.2775603532791138,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/012.png",
+      "label": 0,
+      "score": 1.2591898441314697,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/012.png",
+      "label": 0,
+      "score": 1.2598282098770142,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/012.png",
+      "label": 0,
+      "score": 1.2651344537734985,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/012.png",
+      "label": 0,
+      "score": 1.739295482635498,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/013.png",
+      "label": 0,
+      "score": 1.75300931930542,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/013.png",
+      "label": 0,
+      "score": 1.2100592851638794,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/013.png",
+      "label": 0,
+      "score": 1.1920191049575806,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/013.png",
+      "label": 0,
+      "score": 1.2884025573730469,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/013.png",
+      "label": 0,
+      "score": 1.1916743516921997,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/013.png",
+      "label": 0,
+      "score": 1.75300931930542,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/014.png",
+      "label": 0,
+      "score": 1.7426707744598389,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/014.png",
+      "label": 0,
+      "score": 1.1562761068344116,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/014.png",
+      "label": 0,
+      "score": 1.216138482093811,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/014.png",
+      "label": 0,
+      "score": 1.2161624431610107,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/014.png",
+      "label": 0,
+      "score": 1.2249563932418823,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/014.png",
+      "label": 0,
+      "score": 1.7426707744598389,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/015.png",
+      "label": 0,
+      "score": 1.7436163425445557,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/015.png",
+      "label": 0,
+      "score": 1.3788588047027588,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/015.png",
+      "label": 0,
+      "score": 1.3349322080612183,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/015.png",
+      "label": 0,
+      "score": 1.3369958400726318,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/015.png",
+      "label": 0,
+      "score": 1.3392201662063599,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/015.png",
+      "label": 0,
+      "score": 1.7436163425445557,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/016.png",
+      "label": 0,
+      "score": 1.7651147842407227,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/016.png",
+      "label": 0,
+      "score": 1.3090121746063232,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/016.png",
+      "label": 0,
+      "score": 1.247044563293457,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/016.png",
+      "label": 0,
+      "score": 1.3682100772857666,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/016.png",
+      "label": 0,
+      "score": 1.2944709062576294,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/016.png",
+      "label": 0,
+      "score": 1.7651147842407227,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/017.png",
+      "label": 0,
+      "score": 1.7405670881271362,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/017.png",
+      "label": 0,
+      "score": 1.356905221939087,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/017.png",
+      "label": 0,
+      "score": 1.3288323879241943,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/017.png",
+      "label": 0,
+      "score": 1.4619395732879639,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/017.png",
+      "label": 0,
+      "score": 1.3605139255523682,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/017.png",
+      "label": 0,
+      "score": 1.7405670881271362,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/018.png",
+      "label": 0,
+      "score": 1.7551852464675903,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/018.png",
+      "label": 0,
+      "score": 1.2931939363479614,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/018.png",
+      "label": 0,
+      "score": 1.3476009368896484,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/018.png",
+      "label": 0,
+      "score": 1.3438748121261597,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/018.png",
+      "label": 0,
+      "score": 1.3411974906921387,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/018.png",
+      "label": 0,
+      "score": 1.7551852464675903,
+      "prediction": 1
+    },
+    {
+      "method": "clean",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/019.png",
+      "label": 0,
+      "score": 1.7376033067703247,
+      "prediction": 1
+    },
+    {
+      "method": "pooled",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/019.png",
+      "label": 0,
+      "score": 1.3016455173492432,
+      "prediction": 0
+    },
+    {
+      "method": "uniform",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/019.png",
+      "label": 0,
+      "score": 1.2164804935455322,
+      "prediction": 0
+    },
+    {
+      "method": "adaptive",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/019.png",
+      "label": 0,
+      "score": 1.295983910560608,
+      "prediction": 0
+    },
+    {
+      "method": "no_guard",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/019.png",
+      "label": 0,
+      "score": 1.2709726095199585,
+      "prediction": 0
+    },
+    {
+      "method": "no_anchor",
+      "condition": "brightness_0.75",
+      "file": "bottle/test/good/019.png",
+      "label": 0,
+      "score": 1.7376033067703247,
+      "prediction": 1
+    }
+  ],
+  "elapsed_seconds_including_metrics": 15.648223900003359
+}
